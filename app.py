@@ -10,10 +10,10 @@ model_name='gemini-2.0-flash'
 model = genai.GenerativeModel(model_name)
 
 # Streamlit UI
-st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
+st.set_page_config(page_title="Chanakya - Google Gemini Chatbot", page_icon="🤖")
 
-st.title("🤖 Google Gemini Chatbot")
-st.write("Chat with Google Gemini AI!")
+st.title("🤖 Google Gemini Chatbot - Chanakya")
+# st.write("Chat with Google Gemini AI!")
 
 # Store chat history
 if "messages" not in st.session_state:
